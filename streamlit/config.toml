@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#0F766E"
+font = "sans serif"
+
+[server]
+# Streamlit enforces this limit, and the app reads it. Community Cloud apps have limited
+# memory (about 2.7 GB at most), and this app holds several copies of the data, so keep it modest.
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
